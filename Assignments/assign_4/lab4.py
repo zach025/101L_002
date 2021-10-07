@@ -1,11 +1,11 @@
 def play_again() -> bool:
-    play = (input('Do you want to play again?'))
-    if (play == 'Y') or (play == 'YES'):
-        play =True
+    play_again = (input('Do you want to play again?'))
+    if (play_again == 'Y') or (play == 'YES'):
+        play_again =True
     elif (play == 'N') or (play == 'NO'):
-        play = False
+        play_again = False
     else:
-        play = input('You must enter Y/YES/N/NO to continue. Please try again. Do you want to play again?')
+        play_again = input('You must enter Y/YES/N/NO to continue. Please try again. Do you want to play again?')
     return True
      
 def get_wager(bank : int) -> int:
