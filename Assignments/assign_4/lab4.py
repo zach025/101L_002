@@ -1,3 +1,7 @@
+#CS 101 Lab
+#Program 4
+#Name: Zach Opoka
+#Email: zof6b@mail.umkc.edu
 import random
 
 def play_again() -> bool:
